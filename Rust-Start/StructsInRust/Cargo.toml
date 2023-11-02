@@ -1,0 +1,20 @@
+[package]
+name = "StructsInRust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "returnsStruct"
+path = "src/returnsStruct.rs"
+
+[[bin]]
+name = "structs"
+path = "src/structs.rs"
+
+[[bin]]
+name = "debug"
+path = "src/debug.rs"
+
+
+[dependencies]

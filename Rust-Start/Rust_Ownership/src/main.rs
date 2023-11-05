@@ -1,4 +1,4 @@
-fn main(){
+lfn main(){
     let x = String::from("Hello");
 
     takes_ownership(x);

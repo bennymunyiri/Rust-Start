@@ -1,0 +1,21 @@
+[package]
+name = "method_syntax"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "method"
+path = "src/method.rs"
+
+[[bin]]
+name = "fit"
+path = "src/fit.rs"
+
+[[bin]]
+
+name = "associated"
+path = "src/associated.rs"
+
+[dependencies]

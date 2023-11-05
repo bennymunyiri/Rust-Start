@@ -1,19 +1,28 @@
-use std::io;
-fn main(){
-    let a = [1,2,355,3,5];
+// use std::io;
+// fn main(){
+//     let a = [1,2,355,3,5];
 
-    println!("Enter the index");
+//     println!("Enter the index");
 
-    let mut index =  String::new();
-    io::stdin()
-        .read_line(&mut index)
-        .expect("Unable to read data");
+//     let mut index =  String::new();
+//     io::stdin()
+//         .read_line(&mut index)
+//         .expect("Unable to read data");
 
-    let index: usize = index.trim().parse().expect("Not applicable");
+//     let index: usize = index.trim().parse().expect("Not applicable");
 
-    let element = a[index];
+//     let element = a[index];
 
-    println!("This is the location of index {element}");
+//     println!("This is the location of index {element}");
 
 
+// }
+
+
+
+fn f(x) { 
+    println!("{x}");
+  }
+fn main() {
+f(0);
 }

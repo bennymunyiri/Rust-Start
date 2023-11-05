@@ -1,0 +1,22 @@
+p {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+#one {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: aqua;
+}
+
+.para1 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.para2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
